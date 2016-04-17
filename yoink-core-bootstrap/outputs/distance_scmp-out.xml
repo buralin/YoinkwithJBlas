@@ -3439,8 +3439,8 @@
     </propertyList>
     <propertyList title="Partitioning result  : ">
         <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[474, 18, 1, 455, 234, 337, 373, 150, 129, 45, 375, 120, 470]</scalar>
-            <scalar dataType="BUFFER molecules">[169, 207, 369, 286, 204, 104, 29, 285, 420, 24, 344, 244, 341, 261, 216, 33, 381, 34, 452]</scalar>
+            <scalar dataType="QM molecules">[18, 474, 234, 150, 337, 470, 1, 129, 120, 45, 375, 373, 455]</scalar>
+            <scalar dataType="BUFFER molecules">[104, 285, 381, 420, 24, 286, 452, 169, 29, 207, 33, 344, 261, 244, 216, 34, 204, 341, 369]</scalar>
         </property>
     </propertyList>
     <propertyList title="Smoothing result  :  weight factors">
@@ -3460,7 +3460,7 @@
             <scalar dataType="weighted function" title="molecular indeices" id="[29, 244, 285, 286, 344, 452]">0.05009104198253023</scalar>
             <scalar dataType="weighted function" title="molecular indeices" id="[29, 33, 169, 244, 285, 420]">0.04965147425368022</scalar>
             <scalar dataType="weighted function" title="molecular indeices" id="[29, 33, 244, 285, 286, 452]">0.050183997544847966</scalar>
-            <scalar dataType="weighted function" title="molecular indeices" id="[244, 285, 286, 344, 420, 452]">0.04953610585247465</scalar>
+            <scalar dataType="weighted function" title="molecular indeices" id="[244, 285, 286, 344, 420, 452]">0.049536105852474636</scalar>
             <scalar dataType="weighted function" title="molecular indeices" id="[33, 285, 286, 344, 420, 452]">0.04983564674566666</scalar>
             <scalar dataType="weighted function" title="molecular indeices" id="[29, 33, 244, 286, 344, 452]">0.05069969834814758</scalar>
             <scalar dataType="weighted function" title="molecular indeices" id="[29, 33, 244, 285, 344, 452]">0.05070884051095124</scalar>

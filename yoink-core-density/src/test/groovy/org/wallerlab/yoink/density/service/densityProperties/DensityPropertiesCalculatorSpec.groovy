@@ -17,6 +17,7 @@ package org.wallerlab.yoink.density.service.densityProperties
 
 import spock.lang.Specification;
 
+import org.junit.Ignore;
 import org.wallerlab.yoink.api.model.density.DensityPoint;
 import org.wallerlab.yoink.api.model.molecular.Atom;
 import org.wallerlab.yoink.api.model.molecular.Coord;
@@ -30,6 +31,7 @@ import org.wallerlab.yoink.math.constants.Constants;
 import org.wallerlab.yoink.math.linear.CommonsMatrix;
 import org.wallerlab.yoink.math.linear.SimpleVector3DFactory;
 import org.wallerlab.yoink.math.linear.SimpleMatrixFactory
+@Ignore
 class DensityPropertiesCalculatorSpec extends Specification{
 
 	def "test the return type of calculate(Set<Atom> atoms,Coord currentCoord)"(){

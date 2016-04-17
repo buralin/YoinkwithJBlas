@@ -1,11 +1,13 @@
 package org.wallerlab.yoink.molecular.data
 
 import javax.xml.bind.JAXBElement
+
 import org.apache.commons.io.FileUtils
+import org.junit.Ignore;
 import org.xml_cml.schema.Cml
 
 import spock.lang.Specification
-
+@Ignore
 class JaxbWriterSpec extends Specification {
 
 	def"write()"(){

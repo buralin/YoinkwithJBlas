@@ -57,7 +57,7 @@ public class SimpleMatrixFactory {
 
 	public Matrix vector3D() {
 		Matrix newMatrixInstance;
-		newMatrixInstance = new CommonsMatrix(1, 3);
+		newMatrixInstance = new JBlasMatrix(1, 3);
 		return newMatrixInstance;
 	}
 
