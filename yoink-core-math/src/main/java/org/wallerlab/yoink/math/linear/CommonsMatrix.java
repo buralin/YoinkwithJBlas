@@ -15,8 +15,6 @@
  */
 package org.wallerlab.yoink.math.linear;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.apache.commons.math3.geometry.euclidean.threed.Vector3D;
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.ArrayRealVector;
@@ -36,7 +34,7 @@ import org.wallerlab.yoink.api.service.math.Matrix;
  */
 
 public class CommonsMatrix implements Matrix<RealMatrix> {
-	protected static final Log log = LogFactory.getLog(CommonsMatrix.class);
+
 	private RealMatrix internalMatrix;
 
 	// this matrix is used as intermediate matrix in internalMatrix operation.
@@ -47,7 +45,6 @@ public class CommonsMatrix implements Matrix<RealMatrix> {
 	}
 
 	public CommonsMatrix(int rowDimension, int columnDimension) {
-	//	log.info("commons constructor");
 		this.internalMatrix = MatrixUtils.createRealMatrix(rowDimension,
 				columnDimension);
 	}
@@ -144,7 +141,6 @@ public class CommonsMatrix implements Matrix<RealMatrix> {
 	 */
 	@Override
 	public Matrix ebeMultiply(Matrix m) {
-		log.info("comons ebe");
 		double[] v1 = this.internalMatrix.getRow(0);
 		RealVector vector1 = new ArrayRealVector(v1);
 		double[] v2 = ((RealMatrix) m.getInternalMatrix()).getRow(0);

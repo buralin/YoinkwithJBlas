@@ -3366,93 +3366,31 @@
     </parameterList>
     <propertyList title="Partitioning result  : ">
         <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[18, 104, 474, 375, 33, 234, 381, 29, 337, 45, 207, 373, 120, 24, 420, 129, 369, 1, 455, 470, 150]</scalar>
-            <scalar dataType="BUFFER molecules">[204, 169, 400, 344, 84, 216, 286, 36, 394, 34, 452, 324, 351, 341, 244, 261, 285]</scalar>
+            <scalar dataType="QM molecules">[1, 420, 33, 45, 24, 455, 234, 129, 337, 18, 375, 29, 470, 150, 207, 369, 373, 474, 120, 381, 104]</scalar>
+            <scalar dataType="BUFFER molecules">[36, 204, 400, 452, 285, 286, 216, 394, 261, 169, 341, 34, 351, 344, 324, 84, 244]</scalar>
         </property>
     </propertyList>
     <propertyList title="Smoothing result  :  weight factors   average smooth factor:  ">
         <property title="weight and smooth factors ">
-            <scalar dataType="weighted function" title="molecular indeices" id="[]">0.41369940498109403</scalar>
-            <scalar dataType="weighted function" title="molecular indeices" id="[204, 169, 400, 344, 84, 216, 286, 36, 394, 34, 452, 324, 351, 341, 244, 261, 285]">0.586300595018906</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="204">0.1816233590528954</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="169">0.0936893444250127</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="400">0.9181554687657887</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="344">0.03476231736649349</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="84">0.6629444563531453</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="216">0.33449374367851714</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="286">0.01983009786012846</scalar>
+            <scalar dataType="weighted function" title="molecular indeices" id="[]">0.4136994049810939</scalar>
+            <scalar dataType="weighted function" title="molecular indeices" id="[36, 204, 400, 452, 285, 286, 216, 394, 261, 169, 341, 34, 351, 344, 324, 84, 244]">0.5863005950189061</scalar>
             <scalar dataType="smooth function" title="molecular index" id="36">0.9942733801711778</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="394">0.9296475877204702</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="34">0.6622287481101401</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="452">0.029360649930864513</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="324">0.7941032389552043</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="351">0.7530523002043132</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="341">0.38085926951148175</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="244">0.0045061398205181735</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="261">0.21880692660157403</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="285">0.020552856150872878</scalar>
-        </property>
-        <property/>
-        <property/>
-    </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[129, 373, 375, 369, 24, 381, 29, 207, 45, 420, 1, 455, 33, 150, 470, 474, 18, 120, 104, 337, 234]</scalar>
-            <scalar dataType="BUFFER molecules">[84, 34, 169, 285, 244, 394, 204, 36, 344, 351, 216, 452, 324, 341, 261, 400, 286]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :  weight factors   average smooth factor:  ">
-        <property title="weight and smooth factors ">
-            <scalar dataType="weighted function" title="molecular indeices" id="[]">0.413699404981094</scalar>
-            <scalar dataType="weighted function" title="molecular indeices" id="[84, 34, 169, 285, 244, 394, 204, 36, 344, 351, 216, 452, 324, 341, 261, 400, 286]">0.586300595018906</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="84">0.6629444563531453</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="34">0.6622287481101401</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="169">0.0936893444250127</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="285">0.020552856150872878</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="244">0.0045061398205181735</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="394">0.9296475877204702</scalar>
             <scalar dataType="smooth function" title="molecular index" id="204">0.1816233590528954</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="36">0.9942733801711778</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="344">0.03476231736649349</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="351">0.7530523002043132</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="216">0.33449374367851714</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="452">0.029360649930864513</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="324">0.7941032389552043</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="341">0.38085926951148175</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="261">0.21880692660157403</scalar>
             <scalar dataType="smooth function" title="molecular index" id="400">0.9181554687657887</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="286">0.01983009786012846</scalar>
-        </property>
-        <property/>
-        <property/>
-    </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[337, 369, 120, 234, 420, 373, 24, 29, 381, 129, 455, 33, 470, 150, 45, 375, 104, 207, 18, 474, 1]</scalar>
-            <scalar dataType="BUFFER molecules">[452, 261, 341, 286, 394, 344, 169, 244, 84, 351, 400, 216, 204, 324, 36, 34, 285]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :  weight factors   average smooth factor:  ">
-        <property title="weight and smooth factors ">
-            <scalar dataType="weighted function" title="molecular indeices" id="[]">0.413699404981094</scalar>
-            <scalar dataType="weighted function" title="molecular indeices" id="[452, 261, 341, 286, 394, 344, 169, 244, 84, 351, 400, 216, 204, 324, 36, 34, 285]">0.586300595018906</scalar>
             <scalar dataType="smooth function" title="molecular index" id="452">0.029360649930864513</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="261">0.21880692660157403</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="341">0.38085926951148175</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="286">0.01983009786012846</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="394">0.9296475877204702</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="344">0.03476231736649349</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="169">0.0936893444250127</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="244">0.0045061398205181735</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="84">0.6629444563531453</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="351">0.7530523002043132</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="400">0.9181554687657887</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="216">0.33449374367851714</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="204">0.1816233590528954</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="324">0.7941032389552043</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="36">0.9942733801711778</scalar>
-            <scalar dataType="smooth function" title="molecular index" id="34">0.6622287481101401</scalar>
             <scalar dataType="smooth function" title="molecular index" id="285">0.020552856150872878</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="286">0.01983009786012846</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="216">0.33449374367851714</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="394">0.9296475877204702</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="261">0.21880692660157403</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="169">0.0936893444250127</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="341">0.38085926951148175</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="34">0.6622287481101401</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="351">0.7530523002043132</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="344">0.03476231736649349</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="324">0.7941032389552043</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="84">0.6629444563531453</scalar>
+            <scalar dataType="smooth function" title="molecular index" id="244">0.0045061398205181735</scalar>
         </property>
         <property/>
         <property/>

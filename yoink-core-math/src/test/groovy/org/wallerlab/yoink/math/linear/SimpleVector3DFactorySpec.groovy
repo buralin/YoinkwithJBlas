@@ -16,12 +16,41 @@
 package org.wallerlab.yoink.math.linear
 
 import org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+import org.jblas.DoubleMatrix
+
+import spock.lang.Ignore;
 import spock.lang.Specification;
 import org.wallerlab.yoink.api.service.math.Vector.Vector3DType
 
+
 class SimpleVector3DFactorySpec extends Specification {
 
-	def"test meethod create(double x, double y, double z) "(){
+	def"test meethod create JBLAS (double x, double y, double z) "(){
+		def factory= new SimpleVector3DFactory();
+		factory.myVectorType=Vector3DType.JBLAS;
+		when:"make a new vector usint method create(x,y,z)"
+		def v=factory.create(1, 2, 3)
+		def vectorFromLibrary = new DoubleMatrix(3,1)
+		vectorFromLibrary.put(0,0,1)
+		vectorFromLibrary.put(1,0,2)
+		vectorFromLibrary.put(2,0,3)
+		then:"assert the vector from method create(x,y,z)"
+		v.getInternalVector().equals(vectorFromLibrary) 
+	}
+	def"test meethod create(double [] d) JBLAs"(){
+		def factory= new SimpleVector3DFactory();
+		factory.myVectorType=Vector3DType.JBLAS;
+		double[] d=[1, 2, 3]
+		def vectorFromLibrary =new DoubleMatrix(3,1);
+		vectorFromLibrary.put(0,0,1)
+		vectorFromLibrary.put(1,0,2)
+		vectorFromLibrary.put(2,0,3)
+		when:"make a new vector usint method create(double[] d)"
+		def v=factory.create(d)
+		then:"assert the vector from method create(double[] d)"
+		v.getInternalVector().equals(vectorFromLibrary)
+	}
+	def"test meethod create(double x, double y, double z)COMMONS "(){
 		def factory= new SimpleVector3DFactory();
 		factory.myVectorType=Vector3DType.COMMONS;
 		when:"make a new vector usint method create(x,y,z)"
@@ -29,9 +58,7 @@ class SimpleVector3DFactorySpec extends Specification {
 		then:"assert the vector from method create(x,y,z)"
 		v.getInternalVector().equals(new Vector3D(1,2,3))
 	}
-
-
-	def"test meethod create(double [] d) "(){
+	def"test meethod create(double [] d)COMMONS "(){
 		def factory= new SimpleVector3DFactory();
 		factory.myVectorType=Vector3DType.COMMONS;
 		double[] d=[1, 2, 3]

@@ -57,8 +57,10 @@ public class SerialAdaptiveQMMMProcessor extends AbstractAdaptiveQMMMProcessor<J
 	}
 
 	private Job buildAndExecute(JAXBElement input) {
+		System.out.println("start second step");
 		Job job = jobJaxbBuilderImpl.build(input);
 		job = executeQMMMPartitioning(job);
+		System.out.println("finish second step");
 		return job;
 	}
 	

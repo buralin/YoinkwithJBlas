@@ -41,6 +41,9 @@ public class SimpleVector3DFactory {
 		case COMMONS:
 			myVector = new CommonsVector3D(x, y, z);
 			break;
+		case JBLAS:
+			myVector = new JBlasVector3D(x, y, z);
+			break;
 		default:
 			myVector = null;
 			throw new IllegalArgumentException("Invalid type of vector: "
@@ -61,6 +64,9 @@ public class SimpleVector3DFactory {
 		switch (myVectorType) {
 		case COMMONS:
 			myVector = new CommonsVector3D(d);
+			break;
+		case JBLAS:
+			myVector = new JBlasVector3D(d);
 			break;
 		default:
 			myVector = null;

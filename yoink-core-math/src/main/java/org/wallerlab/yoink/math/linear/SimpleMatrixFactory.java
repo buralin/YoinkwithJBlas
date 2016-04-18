@@ -15,8 +15,6 @@
  */
 package org.wallerlab.yoink.math.linear;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.wallerlab.yoink.api.service.math.Matrix;
@@ -26,19 +24,11 @@ public class SimpleMatrixFactory {
 
 	private Matrix.Type matrixType;
 
-	protected static final Log log = LogFactory.getLog(SimpleMatrixFactory.class);
-
-	
 	public Matrix matrix() {
 		Matrix newMatrixInstance;
 		switch (matrixType) {
 		case COMMONS:
-			log.info("MatrixType Commons");
 			newMatrixInstance = new CommonsMatrix();
-			break;
-		case JBLAS:
-			log.info("MatrixType JBlas");
-			newMatrixInstance = new JBlasMatrix();
 			break;
 		default:
 			newMatrixInstance = null;
@@ -49,7 +39,6 @@ public class SimpleMatrixFactory {
 	}
 
 	public Matrix matrix3x3() {
-		//log.info("Matrix 3x3 JBlas");
 		Matrix newMatrixInstance;
 		newMatrixInstance = new JBlasMatrix(3, 3);
 		return newMatrixInstance;

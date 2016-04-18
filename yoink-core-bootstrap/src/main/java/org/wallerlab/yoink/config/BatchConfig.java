@@ -188,7 +188,7 @@ public class BatchConfig {
 			ItemProcessor<JAXBElement, org.wallerlab.yoink.api.model.bootstrap.Job> serialAdaptiveQMMMProcessor,
 			ItemWriter<org.wallerlab.yoink.api.model.bootstrap.Job> cmlFileResponseWriter) {
 		return stepBuilderFactory
-				.get("adaptiveQMMMBatch").<JAXBElement, org.wallerlab.yoink.api.model.bootstrap.Job> chunk(1)
+				.get("adaptiveQMMM").<JAXBElement, org.wallerlab.yoink.api.model.bootstrap.Job> chunk(1)
 				.reader(cmlFilesReader())
 				.processor(serialAdaptiveQMMMProcessor)
 				.writer(cmlFileResponseWriter).build();
@@ -208,6 +208,7 @@ public class BatchConfig {
 			e.printStackTrace();
 		}
 		multiResourceItemReader.setDelegate((ResourceAwareItemReaderItemStream) cmlFilereader());
+		System.out.println("finish first step");
 		return multiResourceItemReader;
 	}
 

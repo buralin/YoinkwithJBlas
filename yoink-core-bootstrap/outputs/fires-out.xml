@@ -3374,24 +3374,4 @@
         <property/>
         <property/>
     </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[1]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :">
-        <property title="weight and smooth factors "/>
-        <property/>
-        <property/>
-    </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[1]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :">
-        <property title="weight and smooth factors "/>
-        <property/>
-        <property/>
-    </propertyList>
 </cml>

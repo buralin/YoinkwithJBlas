@@ -187,8 +187,8 @@ public interface Matrix<T> {
 	 *
 	 */
 	public enum Type {
-		
-		COMMONS, COMMONS_VECTOR3D, JBLAS, JBlas_VECTOR3D
-		
+
+		COMMONS, COMMONS_VECTOR3D,JBLAS,JBLAS_VECTOR3D
 	}
+
 }

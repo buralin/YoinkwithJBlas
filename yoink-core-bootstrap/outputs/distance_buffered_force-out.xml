@@ -3366,30 +3366,8 @@
     </parameterList>
     <propertyList title="Partitioning result  : ">
         <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[369, 470, 375, 381, 129, 455, 207, 104, 18, 29, 120, 1, 33, 150, 337, 373, 45, 474, 234, 420, 24]</scalar>
-            <scalar dataType="BUFFER molecules">[36, 394, 244, 341, 169, 351, 34, 286, 400, 261, 452, 324, 344, 204, 285, 84, 216]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :">
-        <property title="weight and smooth factors "/>
-        <property/>
-        <property/>
-    </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[104, 29, 129, 45, 369, 1, 470, 375, 24, 337, 381, 207, 234, 474, 455, 120, 373, 150, 420, 33, 18]</scalar>
-            <scalar dataType="BUFFER molecules">[351, 84, 36, 34, 286, 216, 394, 324, 341, 452, 261, 344, 400, 204, 169, 285, 244]</scalar>
-        </property>
-    </propertyList>
-    <propertyList title="Smoothing result  :">
-        <property title="weight and smooth factors "/>
-        <property/>
-        <property/>
-    </propertyList>
-    <propertyList title="Partitioning result  : ">
-        <property title="QM and Buffer molecular indices">
-            <scalar dataType="QM molecules">[33, 129, 150, 18, 24, 420, 207, 381, 373, 120, 104, 337, 45, 234, 474, 470, 455, 369, 1, 375, 29]</scalar>
-            <scalar dataType="BUFFER molecules">[84, 261, 394, 452, 286, 344, 169, 341, 324, 36, 351, 244, 204, 34, 216, 400, 285]</scalar>
+            <scalar dataType="QM molecules">[420, 369, 104, 1, 337, 150, 234, 373, 45, 207, 24, 33, 470, 474, 18, 129, 381, 120, 455, 375, 29]</scalar>
+            <scalar dataType="BUFFER molecules">[285, 34, 452, 36, 344, 169, 400, 244, 216, 341, 84, 261, 394, 286, 324, 204, 351]</scalar>
         </property>
     </propertyList>
     <propertyList title="Smoothing result  :">

@@ -50,9 +50,12 @@ public class JobJaxbBuilderImpl extends AbstractJobBuilder<JAXBElement,JAXBEleme
 	@Override
 	public Job<JAXBElement> build(JAXBElement input) {
 		//wrap it back up - crazy ;).
+
 		Job<JAXBElement> job= new AdaptiveQMMMJob();
+		System.out.println("in second step");
 		job.setInput(input);
 		process(job);
+
 		return job;
 	}
 

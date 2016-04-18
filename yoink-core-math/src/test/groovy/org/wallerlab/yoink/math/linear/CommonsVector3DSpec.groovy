@@ -24,7 +24,7 @@ class CommonsVector3DSpec extends Specification{
 		def commonsVector= new CommonsVector3D(0,0,0);
 		def vectorFromLiarary=new Vector3D(0,0,0);
 		then:
-		commonsVector.internalVector.equals(vectorFromLiarary);
+		commonsVector.internalVector.equals(vectorFromLiarary) == true;
 	}
 
 	def" create a 3D vector using double array "(){
@@ -49,7 +49,6 @@ class CommonsVector3DSpec extends Specification{
 		then:
 		assert Math.abs(commonsVector.getNorm()-3.0)<=1.0E-6
 	}
-
 
 	def "test operator add"(){
 		when:

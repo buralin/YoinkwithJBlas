@@ -15,11 +15,12 @@
  */
 package org.wallerlab.yoink.math.linear
 
-import org.junit.Ignore;
+
 import org.wallerlab.yoink.api.service.math.Matrix;
 
+import spock.lang.Ignore;
 import spock.lang.Specification;
-@Ignore
+
 class SimpleMatrixFactorySpec extends Specification {
 	def "test methods: matrix(), matrix3x3"(){
 		def myMatrix= new SimpleMatrixFactory()
